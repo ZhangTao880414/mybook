@@ -1,0 +1,643 @@
+@font-face {
+  font-family: "Siemens Sans Regular";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSans-Regular.otf');
+}
+
+@font-face {
+  font-family: "Siemens Sans Bold";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSansBold.otf');
+}
+
+@font-face {
+  font-family: "Siemens Sans Italic";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSans-Italic.otf');
+}
+
+@font-face {
+  font-family: "Siemens Sans BoldItalic";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSans-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "Siemens Sans BlackItalic";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSans-BlackItalic.otf');
+}
+
+@font-face {
+  font-family: "Siemens Sans Black";
+  src: url('/s/sfsites/c/resource/siemensPlmLightning/fonts/SiemensSans-Black.otf');
+}
+
+@font-face {
+  font-family: 'Siemens Webicons';
+  src:  url('/s/sfsites/c/resource/siemensPlmLightning/fonts/siemens-webicons-webfont.eot?7dc083');
+  src:  url('/s/sfsites/c/resource/siemensPlmLightning/fonts/siemens-webicons-webfont.eot?7dc083#iefix') format('embedded-opentype'),
+    url('/s/sfsites/c/resource/siemensPlmLightning/fonts/siemens-webicons-webfont.ttf?7dc083') format('truetype'),
+    url('/s/sfsites/c/resource/siemensPlmLightning/fonts/siemens-webicons-webfont.woff?7dc083') format('woff'),
+    url('/s/sfsites/c/resource/siemensPlmLightning/fonts/siemens-webicons-webfont.svg?7dc083#siemens-webicons-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Siemens Webicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reddit-negative:before {
+  content: "\e93f";
+}
+.icon-reddit:before {
+  content: "\e940";
+}
+.icon-stumbleupon-negative:before {
+  content: "\e941";
+}
+.icon-stumbleupon:before {
+  content: "\e942";
+}
+.icon-xing-negative:before {
+  content: "\e943";
+}
+.icon-xing:before {
+  content: "\e944";
+}
+.icon-qzone-negative:before {
+  content: "\e93d";
+}
+.icon-qzone:before {
+  content: "\e93e";
+}
+.icon-presentation:before {
+  content: "\e93c";
+}
+.icon-slideshow:before {
+  content: "\e93b";
+}
+.icon-audio:before {
+  content: "\e932";
+}
+.icon-feature:before {
+  content: "\e933";
+}
+.icon-footage:before {
+  content: "\e934";
+}
+.icon-glassdoor-negative:before {
+  content: "\e935";
+}
+.icon-glassdoor:before {
+  content: "\e936";
+}
+.icon-picture-set:before {
+  content: "\e937";
+}
+.icon-picture:before {
+  content: "\e938";
+}
+.icon-press-release:before {
+  content: "\e939";
+}
+.icon-videos:before {
+  content: "\e93a";
+}
+.icon-360-feature:before {
+  content: "\e917";
+}
+.icon-biography:before {
+  content: "\e925";
+}
+.icon-embed:before {
+  content: "\e926";
+}
+.icon-facts-and-forecasts:before {
+  content: "\e927";
+}
+.icon-infographic:before {
+  content: "\e928";
+}
+.icon-renren-negative:before {
+  content: "\e929";
+}
+.icon-renren:before {
+  content: "\e92a";
+}
+.icon-webcast:before {
+  content: "\e92b";
+}
+.icon-weixin-negative:before {
+  content: "\e92c";
+}
+.icon-weixin:before {
+  content: "\e92d";
+}
+.icon-add-to-download-basket:before {
+  content: "\e92e";
+}
+.icon-audio-off:before {
+  content: "\e92f";
+}
+.icon-download-basket:before {
+  content: "\e930";
+}
+.icon-gif:before {
+  content: "\e931";
+}
+.icon-career:before {
+  content: "\e906";
+}
+.icon-clock:before {
+  content: "\e907";
+}
+.icon-conference:before {
+  content: "\e908";
+}
+.icon-filter:before {
+  content: "\e909";
+}
+.icon-investor-relations:before {
+  content: "\e90a";
+}
+.icon-press:before {
+  content: "\e90b";
+}
+.icon-question:before {
+  content: "\e90c";
+}
+.icon-quotation:before {
+  content: "\e90d";
+}
+.icon-rectification:before {
+  content: "\e90e";
+}
+.icon-settings:before {
+  content: "\e90f";
+}
+.icon-tickets:before {
+  content: "\e910";
+}
+.icon-trade-fair:before {
+  content: "\e911";
+}
+.icon-webinar:before {
+  content: "\e912";
+}
+.icon-aparat-negative:before {
+  content: "\e913";
+}
+.icon-aparat:before {
+  content: "\e914";
+}
+.icon-tumblr-negative:before {
+  content: "\e915";
+}
+.icon-tumblr:before {
+  content: "\e916";
+}
+.icon-fast-backward:before {
+  content: "\e918";
+}
+.icon-fast-forward:before {
+  content: "\e919";
+}
+.icon-pause:before {
+  content: "\e91a";
+}
+.icon-replay:before {
+  content: "\e91b";
+}
+.icon-skip-backward:before {
+  content: "\e91c";
+}
+.icon-skip-forward:before {
+  content: "\e91d";
+}
+.icon-stop:before {
+  content: "\e91e";
+}
+.icon-audio-down:before {
+  content: "\e91f";
+}
+.icon-audio-up:before {
+  content: "\e920";
+}
+.icon-windows-app-store:before {
+  content: "\e921";
+}
+.icon-apps:before {
+  content: "\e600";
+}
+.icon-arrow-down-large:before {
+  content: "\e605";
+}
+.icon-arrow-left-large:before {
+  content: "\e606";
+}
+.icon-arrow-right-large:before {
+  content: "\e607";
+}
+.icon-arrow-up-large:before {
+  content: "\e608";
+}
+.icon-arrow-down-small:before {
+  content: "\e609";
+}
+.icon-arrow-left-small:before {
+  content: "\e60a";
+}
+.icon-arrow-right-small:before {
+  content: "\e60b";
+}
+.icon-arrow-up-small:before {
+  content: "\e60c";
+}
+.icon-arrow-to-top:before {
+  content: "\e60d";
+}
+.icon-at:before {
+  content: "\e60e";
+}
+.icon-bookmark:before {
+  content: "\e60f";
+}
+.icon-calculate:before {
+  content: "\e610";
+}
+.icon-calendar:before {
+  content: "\e611";
+}
+.icon-chat:before {
+  content: "\e612";
+}
+.icon-check-mark:before {
+  content: "\e613";
+}
+.icon-circle:before {
+  content: "\e614";
+}
+.icon-close:before {
+  content: "\e615";
+}
+.icon-control:before {
+  content: "\e616";
+}
+.icon-delete:before {
+  content: "\e617";
+}
+.icon-double-arrow-backward:before {
+  content: "\e618";
+}
+.icon-double-arrow-down:before {
+  content: "\e619";
+}
+.icon-double-arrow-forward:before {
+  content: "\e61a";
+}
+.icon-double-arrow-up:before {
+  content: "\e61b";
+}
+.icon-download:before {
+  content: "\e61c";
+}
+.icon-drag:before {
+  content: "\e61d";
+}
+.icon-edit:before {
+  content: "\e61e";
+}
+.icon-email:before {
+  content: "\e61f";
+}
+.icon-ext:before {
+  content: "\e620";
+}
+.icon-facebook:before {
+  content: "\e621";
+}
+.icon-facebook-negative:before {
+  content: "\e622";
+}
+.icon-fax:before {
+  content: "\e623";
+}
+.icon-file:before {
+  content: "\e624";
+}
+.icon-avi:before {
+  content: "\e625";
+}
+.icon-doc:before {
+  content: "\e626";
+}
+.icon-eps:before {
+  content: "\e627";
+}
+.icon-jpg:before {
+  content: "\e628";
+}
+.icon-mov:before {
+  content: "\e629";
+}
+.icon-mp3:before {
+  content: "\e62a";
+}
+.icon-mp4:before {
+  content: "\e62b";
+}
+.icon-pdf:before {
+  content: "\e62c";
+}
+.icon-png:before {
+  content: "\e62d";
+}
+.icon-ppt:before {
+  content: "\e62e";
+}
+.icon-files:before {
+  content: "\e62f";
+}
+.icon-tif:before {
+  content: "\e630";
+}
+.icon-vcf:before {
+  content: "\e631";
+}
+.icon-xls:before {
+  content: "\e632";
+}
+.icon-zip:before {
+  content: "\e633";
+}
+.icon-forum:before {
+  content: "\e634";
+}
+.icon-fullscreen:before {
+  content: "\e635";
+}
+.icon-globe:before {
+  content: "\e636";
+}
+.icon-glossary:before {
+  content: "\e637";
+}
+.icon-google:before {
+  content: "\e638";
+}
+.icon-google-negative:before {
+  content: "\e639";
+}
+.icon-home:before {
+  content: "\e63a";
+}
+.icon-information:before {
+  content: "\e63b";
+}
+.icon-information-package:before {
+  content: "\e63c";
+}
+.icon-instagram:before {
+  content: "\e63d";
+}
+.icon-instagram-negative:before {
+  content: "\e63e";
+}
+.icon-legal-notice:before {
+  content: "\e63f";
+}
+.icon-level-up:before {
+  content: "\e640";
+}
+.icon-linkedin:before {
+  content: "\e641";
+}
+.icon-linkedin-negative:before {
+  content: "\e642";
+}
+.icon-list-view:before {
+  content: "\e643";
+}
+.icon-location-pin:before {
+  content: "\e644";
+}
+.icon-log-in:before {
+  content: "\e645";
+}
+.icon-log-out:before {
+  content: "\e646";
+}
+.icon-menu:before {
+  content: "\e647";
+}
+.icon-minus:before {
+  content: "\e648";
+}
+.icon-more:before {
+  content: "\e649";
+}
+.icon-navigation-gyroscope:before {
+  content: "\e64a";
+}
+.icon-navigation-mouse:before {
+  content: "\e64b";
+}
+.icon-newton_product-catalogue:before {
+  content: "\e64c";
+}
+.icon-outline:before {
+  content: "\e64d";
+}
+.icon-phone:before {
+  content: "\e64e";
+}
+.icon-play:before {
+  content: "\e64f";
+}
+.icon-plus:before {
+  content: "\e650";
+}
+.icon-print:before {
+  content: "\e651";
+}
+.icon-rating:before {
+  content: "\e652";
+}
+.icon-region:before {
+  content: "\e653";
+}
+.icon-rss:before {
+  content: "\e655";
+}
+.icon-scaling:before {
+  content: "\e656";
+}
+.icon-search:before {
+  content: "\e657";
+}
+.icon-share-ios:before {
+  content: "\e658";
+}
+.icon-share-newton-android:before {
+  content: "\e659";
+}
+.icon-shopping-cart:before {
+  content: "\e65a";
+}
+.icon-show-location:before {
+  content: "\e65b";
+}
+.icon-single-arrow-backward:before {
+  content: "\e65c";
+}
+.icon-single-arrow-down:before {
+  content: "\e65d";
+}
+.icon-single-arrow-forward:before {
+  content: "\e65e";
+}
+.icon-single-arrow-up:before {
+  content: "\e65f";
+}
+.icon-slider:before {
+  content: "\e660";
+}
+.icon-social-feed:before {
+  content: "\e661";
+}
+.icon-audio-on:before {
+  content: "\e663";
+}
+.icon-subscribe:before {
+  content: "\e664";
+}
+.icon-theenergyblog:before {
+  content: "\e665";
+}
+.icon-theenergyblog-negative:before {
+  content: "\e666";
+}
+.icon-apple-mac-app-store:before {
+  content: "\e922";
+}
+.icon-android-app-store:before {
+  content: "\e923";
+}
+.icon-shuffle:before {
+  content: "\e924";
+}
+.icon-tile-view:before {
+  content: "\e667";
+}
+.icon-twitter:before {
+  content: "\e668";
+}
+.icon-twitter-negative:before {
+  content: "\e669";
+}
+.icon-user-account:before {
+  content: "\e66a";
+}
+.icon-video-chat:before {
+  content: "\e66b";
+}
+.icon-warning:before {
+  content: "\e66c";
+}
+.icon-youtube:before {
+  content: "\e66d";
+}
+.icon-youtube-negative:before {
+  content: "\e66e";
+}
+.icon-zoom:before {
+  content: "\e66f";
+}
+.icon-weibo:before {
+  content: "\e900";
+}
+.icon-weibo-negative:before {
+  content: "\e901";
+}
+.icon-youku:before {
+  content: "\e902";
+}
+.icon-youku-negative:before {
+  content: "\e903";
+}
+.icon-support:before {
+  content: "\e904";
+}
+.icon-service:before {
+  content: "\e905";
+}
+
+
+.uiPanel.open,
+.uiModal.forceModal.open.active {
+	z-index: 7000 !important;
+}
+
+.comm-page-error .forceCommunityRichText > .uiOutputRichText {
+    padding-top: 3rem;
+}
+
+/* *** Self register & Login pages *** */
+
+.salesforceIdentityLoginBody2 {
+	background-image: linear-gradient(to left, #0299cb, #46b9b9) !important;
+}
+
+.salesforceIdentityLoginBody2 .cCenterPanel {
+	min-width: 0 !important;
+    width: 380px !important;
+}
+
+.salesforceIdentitySelfRegister2,
+.salesforceIdentityLoginForm2 {
+	background-color: #fff;
+}
+
+.salesforceIdentitySelfRegister2 {
+	padding: 1rem;
+}
+
+.salesforceIdentityLoginForm2 {
+	background-color: #fff;
+	padding: 1rem 1rem 1.5rem;
+}
+
+.salesforceIdentitySelfRegister2 .inputContainer,
+.salesforceIdentityLoginForm2 .inputContainer {
+	margin-bottom: 1rem !important;
+}
+
+.salesforceIdentitySelfRegister2 .inputIcon,
+.salesforceIdentityLoginForm2 .inputIcon {
+	display: none !important;
+}
+
+.salesforceIdentitySelfRegister2 .inputBox,
+.salesforceIdentityLoginForm2 .inputBox {
+	margin-left: 0 !important;
+}
+
+.salesforceIdentitySelfRegister2 a,
+.salesforceIdentityLoginForm2 a {
+	color: #2387aa !important;
+}
+
+.salesforceIdentitySelfRegister2 .uiButton,
+.salesforceIdentityLoginForm2 .uiButton {
+	background-color: #faa50a !important;
+	margin-bottom: 1rem !important;
+}
+
