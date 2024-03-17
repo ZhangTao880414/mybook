@@ -1,9 +1,0 @@
-https://blog.csdn.net/appleseedking/article/details/100894859、
-
-
-https://community.sw.siemens.com/s/article/Simcenter-Flotherm-Monitoring-Batch-Solving
-
-
-https://github.com/ZhangTao880414/yangjianlin-c.github.io/tree/main/docs/Flotherm
-
-https://www.mekesim.com/doc/Flotherm/Floscript%20%E5%92%8C%20Flotherm%20Environment%20Shell%E7%9A%84%E7%BB%93%E5%90%88%E4%BD%BF%E7%94%A8/

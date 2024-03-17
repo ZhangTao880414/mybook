@@ -1,1 +1,0 @@
-ste.net_callback({"net":"e"});
